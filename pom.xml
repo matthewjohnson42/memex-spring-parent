@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.matthewjohnson42</groupId>
     <artifactId>memex-spring-parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <name>Memex Parent POM</name>
     <packaging>pom</packaging>
     <properties>
@@ -64,21 +64,5 @@
             <version>${mongodb.driversync.version}</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <!-- plugin for compiling the source files -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <release>${java.version}</release>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
