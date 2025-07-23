@@ -8,12 +8,12 @@
     <name>Memex Parent POM</name>
     <packaging>pom</packaging>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <!-- details regarding relation between spring version and others can be found on spring-boot-starter-parent -->
         <!-- ref: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
-        <spring.boot.version>2.7.18</spring.boot.version>
-        <spring.data.mongodb.version>3.4.18</spring.data.mongodb.version>
-        <mongodb.driversync.version>4.6.1</mongodb.driversync.version>
+        <spring.boot.version>3.4.1</spring.boot.version>
+        <spring.data.mongodb.version>4.4.1</spring.data.mongodb.version>
+        <mongodb.driversync.version>5.2.1</mongodb.driversync.version>
     </properties>
 
     <!-- maven remote repo configurations -->
